@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh Sonawane - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #ffa500;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+            /* Changed from 20px to 30px */
+        }
+
+        nav ul li:first-child {
+            margin-left: 0;
+            /* This ensures the first item doesn't have a left margin */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            gap: 100px;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-image {
+            flex: 1;
+            /* max-height: ; */
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background: linear-gradient(to right, #ffa500, #ff4500);
+            color: white;
+        }
+
+        .btn-secondary {
+            border: 2px solid #ffa500;
+            color: #ffa500;
+        }
+
+        .next-hero-two {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Mahesh.</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="hero">
+            <div class="hero-content">
+                <h1>Hey there,<br>It's Mahesh Sonawane.</h1>
+                <p>Welcome to my creative corner! I'm a passionate UI/UX designer with three years of experience
+                    crafting digital experiences that are both visually stunning and user-friendly.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Say Hello</a>
+                    <a href="#" class="btn btn-secondary">My Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/Images/MB2.png" alt="Mahesh Sonawane">
+            </div>
+        </main>
+        <div class="next-hero-two">
+            <img src="/Images/mb3 .png" alt="Discover">
+        </div>
+    </div>
+</body>
+
+</html>
